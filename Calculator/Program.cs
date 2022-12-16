@@ -13,6 +13,8 @@
             int second = Convert.ToInt32(secondNumber);
             int sum = Calculator.Add(first, second);
             Console.WriteLine("sum = " + sum);
+            AccesingFields.PrintStaticVariable();
+            new AccesingFields().PrintInstanceVariable();
         }
     }
 }
